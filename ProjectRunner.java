@@ -156,9 +156,45 @@ public class ProjectRunner {
 									System.out.println("-----------------------------------------------------------------------------------------------------------");
 									
 								}
-							
+								
+								
+								System.out.println(); 
+								System.out.println("Welcome to your second minigame... COMPUTER SCIENCE SCRABBLE!"); 
+								
+								System.out.println(); 
 
+								System.out.println("For each question, you will be provided with a jumble of letters -- your task is to unscrabble these letters to make a computer science term."); 
+								System.out.println("If you get it on the first try, you will recieve 2 points. If you need a hint, enter 1, and you will have the chance to guess for 1 point."); 
+								// add in life story... college? 
 
+								System.out.println(); 
+
+								next = input.nextLine(); 
+
+								int totalPoints = 0; 
+
+								if (next.equals("0"))
+								{
+									Scrabble s1 = new Scrabble(); 
+
+									for (int i = 0; i < 3; i ++)
+									{
+										totalPoints += s1.ask(); 
+										System.out.println("-----------------------------------------------------------------------------------------------------------"); 
+									}
+								
+								}
+
+								System.out.println("You have completed your second minigame! Type 0 to see your results..."); 
+								next = input.nextLine(); 
+
+								if (next.equals("0"))
+								{
+									if (totalPoints > 1)
+									{
+										System.out.println("You passed! You got at least 2/3 questions correct. Great job!");
+									}
+								}
 								
 							}
 							
