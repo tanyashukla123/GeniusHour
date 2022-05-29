@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 
 public class Person {
 	private Character characterType;
@@ -9,16 +10,22 @@ public class Person {
 		status = " ";
 	}
 	
-	public void setCharacterType(character);
-	{
-		characterType = character;
-	}
-	
-	public void setStatus(stat)
-	{
+	public Person(Character type, String stat) {
+		characterType = type;
 		status = stat;
 	}
 	
+	/**public void setCharacterType(character);
+	{
+		characterType = character;
+	}
+	**/
+	
+	/**public void setStatus(stats)
+	{
+		status = stats;
+	}
+	**/
 	public Character getCharacterType()
 	{
 		return characterType;
