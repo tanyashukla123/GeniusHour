@@ -16,9 +16,9 @@ public class ProjectRunner {
 			System.out.println("First, choose your character out of these three options: ");
 			System.out.println("Character 1: if you choose this character, you will have the ability to skip any trivia question you are unsure of, making it possible for you to progress even if you don't know the answer.");
 			System.out.println(" ");
-			System.out.println("Character 2: if you choose this character, you will have the ability to double your points for a certain question for one round.");
+			System.out.println("Character 2: if you choose this character, you will have the ability to double your points for a certain minigame for one round.");
 			System.out.println(" ");
-			System.out.println("Character 3: if you choose this character, you will have the ability to choose the type of question you will receive for one round.");
+			System.out.println("Character 3: if you choose this character, you will have the ability to 'double or nothing' your points for one minigame.");
 			System.out.println(" ");
 			System.out.println("Type the number of the character you want to choose. Remember, you can gain new abilities as the game goes on for one round.");
 			String characterNum= " ";
@@ -145,6 +145,7 @@ public class ProjectRunner {
 										next=input.nextLine();
 										if(next.equals("yes")) {
 											points+=5;
+											System.out.println("+5 points received!");
 										}
 									}
 									else {
@@ -154,47 +155,132 @@ public class ProjectRunner {
 								next=input.nextLine();
 								if(next.equals("0")) {
 									System.out.println("-----------------------------------------------------------------------------------------------------------");
+									System.out.println(" ");
+									System.out.println("               .odbo.\n"
+											+ "           .od88888888bo.     \n"
+											+ "       .od8888888888888888bo.\n"
+											+ "   .od888888888888888888888888bo.\n"
+											+ "od88888888888888888888888888888888bo\n"
+											+ " `~888888888888888888888888888888~'\n"
+											+ "    `~888888888888888888888888~'|\n"
+											+ "       `~888888888888888888~'   |\n"
+											+ "         |`~888888888888~'|     |\n"
+											+ "         \\   `~888888~'   /     A\n"
+											+ "          `-_   `~~'   _-'      H\n"
+											+ "             `--____--'");
+									System.out.println(" ");
+									System.out.println("It's graduation day! You will be attending XXX University in the fall to pursue computer science.");
+									System.out.println("Something to learn about before entering college is character abilities. At the beginning of the game, you chose a certain character type with an ability.");
+									System.out.println("Type 1 had the ability to skip any trivia question. Type 2 was able to double their points for a certain minigame. Type 3 was able to go 'double or nothing' for one of the minigames");
+									System.out.println("Remember your choice and consider when it's best to use it. With that, you have officially graduated Ardsley High School!");
+									System.out.println(" ");
+									next=input.nextLine();
+									if(next.equals("0")) {
+										System.out.println("-----------------------------------------------------------------------------------------------------------");
+										System.out.println(" ");
+										System.out.println("Welcome to XXX University!");
+										next=input.nextLine();
+										if(next.equals("0")) {
+											System.out.println(" ");
+											System.out.println("                                               /\\      /\\\n"
+													+ "                                               ||______||\n"
+													+ "                                               || ^  ^ ||\n"
+													+ "                                               \\| |  | |/\n"
+													+ "                                                |______|\n"
+													+ "              __                                |  __  |\n"
+													+ "             /  \\       ________________________|_/  \\_|__\n"
+													+ "            / ^^ \\     /=========================/ ^^ \\===|\n"
+													+ "           /  []  \\   /=========================/  []  \\==|\n"
+													+ "          /________\\ /=========================/________\\=|\n"
+													+ "       *  |        |/==========================|        |=|\n"
+													+ "      *** | ^^  ^^ |---------------------------| ^^  ^^ |--\n"
+													+ "     *****| []  [] |           _____           | []  [] | |\n"
+													+ "    *******        |          /_____\\          |      * | |\n"
+													+ "   *********^^  ^^ |  ^^  ^^  |  |  |  ^^  ^^  |     ***| |\n"
+													+ "  ***********]  [] |  []  []  |  |  |  []  []  | ===***** |\n"
+													+ " *************     |         @|__|__|@         |/ |*******|\n"
+													+ "***************   ***********--=====--**********| *********\n"
+													+ "***************___*********** |=====| **********|***********\n"
+													+ " *************     ********* /=======\\ ******** | *********");
+											System.out.println(" ");
+											next=input.nextLine();
+											if(next.equals("0")) {
+												System.out.println("-----------------------------------------------------------------------------------------------------------");
+												System.out.println("Welcome to your first class: Intro to Computer Science! This year will go by very quickly, so make sure to pay attention!");
+												System.out.println(" ");
+												System.out.println("               .----.\n"
+														+ "      .---------. | == |\n"
+														+ "      |.-\"\"\"\"\"-.| |----|\n"
+														+ "      ||       || | == |\n"
+														+ "      ||       || |----|\n"
+														+ "      |'-.....-'| |::::|\n"
+														+ "      `\"\")---(\"\"` |___.|\n"
+														+ "     /:::::::::::\\\" _  \"\n"
+														+ "    /:::=======:::\\`\\`\\\n"
+														+ "    `\"\"\"\"\"\"\"\"\"\"\"\"\"`  '-'");
+												next=input.nextLine();
+												if(next.equals("0")) {
+													System.out.println(" ");
+													System.out.println("-----------------------------------------------------------------------------------------------------------");
+													System.out.println(" __        ___     __   ___        ___  __  ___  ___  __               ___  ___  __  \n"
+															+ "/  \\ |\\ | |__     /__` |__   |\\/| |__  /__`  |  |__  |__)    |     /\\   |  |__  |__) \n"
+															+ "\\__/ | \\| |___    .__/ |___  |  | |___ .__/  |  |___ |  \\    |___ /~~\\  |  |___ |  \\ \n"
+															+ "                                                                                      ");
+													System.out.println(" ");
+													System.out.println("-----------------------------------------------------------------------------------------------------------");
+													next=input.nextLine();
+													if(next.equals("0")) {
+														System.out.println(" ");
+														System.out.println("                     ______\n"
+																+ "                   <((((((\\\\\\\n"
+																+ "                   /      . }\\\n"
+																+ "                   ;--..--._|}\n"
+																+ "(\\                 '--/\\--'  )\n"
+																+ " \\\\                | '-'  :'|\n"
+																+ "  \\\\               . -==- .-|\n"
+																+ "   \\\\               \\.__.'   \\--._\n"
+																+ "   [\\\\          __.--|       //  _/'--.\n"
+																+ "   \\ \\\\       .'-._ ('-----'/ __/      \\\n"
+																+ "    \\ \\\\     /   __>|      | '--.       |\n"
+																+ "     \\ \\\\   |   \\   |     /    /       /\n"
+																+ "      \\ '\\ /     \\  |     |  _/       /\n"
+																+ "       \\  \\       \\ |     | /        /\n"
+																+ "        \\  \\      \\        /\n");
+														System.out.println(" ");
+														System.out.println("Hello class. You will now get an opportunity to earn a special internship depending on how you score on this test");
+														System.out.println("Answer these two questions correctly to get the internship opportunity (+5 points too!)");
+														next=input.nextLine();
+														if(next.equals("0")) {
+															System.out.println(" ");
+															int count=0;
+															System.out.println("Question 1: java is an ______ oriented programming language");
+															next=input.nextLine();
+															if(next.equals("object")) {
+																System.out.println("+1 point! Good job!");
+																points++;
+																count++;
+															}
+															else {
+																System.out.println("That's wrong. Try again on the next one!");
+															}
+															System.out.println(" ");
+															System.out.println("Question 2: ");
+														}
+													}
+												}
+
+											}
+											
+										}
+										
+									}
 									
+									
+
 								}
-								
-								
-								System.out.println(); 
-								System.out.println("Welcome to your second minigame... COMPUTER SCIENCE SCRABBLE!"); 
-								
-								System.out.println(); 
+							
 
-								System.out.println("For each question, you will be provided with a jumble of letters -- your task is to unscrabble these letters to make a computer science term."); 
-								System.out.println("If you get it on the first try, you will recieve 2 points. If you need a hint, enter 1, and you will have the chance to guess for 1 point."); 
-								// add in life story... college? 
 
-								System.out.println(); 
-
-								next = input.nextLine(); 
-
-								int totalPoints = 0; 
-
-								if (next.equals("0"))
-								{
-									Scrabble s1 = new Scrabble(); 
-
-									for (int i = 0; i < 3; i ++)
-									{
-										totalPoints += s1.ask(); 
-										System.out.println("-----------------------------------------------------------------------------------------------------------"); 
-									}
-								
-								}
-
-								System.out.println("You have completed your second minigame! Type 0 to see your results..."); 
-								next = input.nextLine(); 
-
-								if (next.equals("0"))
-								{
-									if (totalPoints > 1)
-									{
-										System.out.println("You passed! You got at least 2/3 questions correct. Great job!");
-									}
-								}
 								
 							}
 							
