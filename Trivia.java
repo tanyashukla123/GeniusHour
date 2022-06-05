@@ -9,12 +9,12 @@ public class Trivia {
 		answers.add("laptop");
 		questions.add("True or False: RAM stores information about your computer when it is closed");
 		answers.add("false");
+		questions.add("What is the lowest level of computer language?");
+		answers.add("machine language");
 		questions.add("True or False: You need an Internet browser to go on the Internet");
 		answers.add("false");
 		questions.add("What is the most used search engine?");
 		answers.add("google");
-		questions.add("What is the lowest level of computer language?");
-		answers.add("machine language");
 		questions.add("What does GUI stand for?");
 		answers.add("graphical user interface");
 		questions.add("What is the word pixel short for?");

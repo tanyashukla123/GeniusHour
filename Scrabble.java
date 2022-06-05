@@ -6,6 +6,7 @@ public class Scrabble {
     private ArrayList<String> words = new ArrayList<String>(); 
     private ArrayList<String> clues = new ArrayList<String>(); 
     private ArrayList<String> letters = new ArrayList<String>();
+    private int point=0;
 
     public Scrabble()
     {
@@ -82,12 +83,20 @@ public class Scrabble {
         {
             System.out.println("Sorry, that's wrong."); 
         }
+        
+        
 
         letters.remove(0); 
         words.remove(0);
         clues.remove(0); 
+        point=points;
 
-        return points;
+        return point;
     }
+    
+    public int returnPoints() {
+    	return point;
+    }
+
 
 }

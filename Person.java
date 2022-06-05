@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class Person {
 	private Character characterType;
 	private String status;
